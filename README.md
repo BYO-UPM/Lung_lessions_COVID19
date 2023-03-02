@@ -4,7 +4,7 @@
 
 Julián D. Arias-Londoño , Álvaro Moure-Prado, and Juan I. Godino-Llorente 
 
-Submitted to Diagnostics 
+Submitted to "Diagnostics" 
 
 
 ## Abstract: 
