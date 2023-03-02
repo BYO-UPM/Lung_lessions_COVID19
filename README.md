@@ -6,4 +6,4 @@ chest X-Ray images. Focussing attention on the lungs"
 
 Julián D. Arias-Londoño , Álvaro Moure-Prado, and Juan I. Godino-Llorente 
 
-Diagnostics 
+Submitted to Diagnostics 
