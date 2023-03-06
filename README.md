@@ -21,5 +21,5 @@ In order to reproduce the results of the paper the following steps need to be fo
 
 3. Train the models using the notebooks in the model_training folder
 
-4. Perform inference using the scripts in the inference folder or design your own validation scripts
+4. Perform inference using the scripts in the inference folder or design your own validation scripts. Paths pointing to the best weights .pth files need to be manually set up by the user.
 
