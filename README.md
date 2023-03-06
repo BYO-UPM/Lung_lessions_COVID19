@@ -17,4 +17,9 @@ In order to reproduce the results of the paper the following steps need to be fo
 
 1. Download the input data from the Kaggle challenge available here: https://www.kaggle.com/competitions/siim-covid19-detection and extract it in the kaggle/input directory
 
-2. 
+2. Run the dataset_preprocessing.ipynb notebook in order to generate the PNG files from the DICOM and create the resized bounding boxes annotations
+
+3. Train the models using the notebooks in the model_training folder
+
+4. Perform inference using the scripts in the inference folder or design your own validation scripts
+
