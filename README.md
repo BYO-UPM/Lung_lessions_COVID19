@@ -23,12 +23,12 @@ In order to reproduce the results of the paper the following steps need to be fo
 
 2. Run the dataset_preprocessing.ipynb notebook in order to generate the PNG files from the DICOM and create the resized bounding boxes annotations. Different output sizes can be configured. By default sizes 256x256 512x512 & 768x768 are created.
 
-3. Use the Bboxes.m MatLab script in order to preprocess the bounding boxes as indicated in Section 2 of the original paper
+3. Use the Bboxes.m MATLAB script in order to preprocess the bounding boxes as indicated in Section 2 of the original paper
 
 3. Train the models using the notebooks in the model_training folder
 
 4. Perform inference using the scripts in the inference folder or design your own validation scripts. Paths pointing to the best weights .pth files need to be manually set up by the user.
-
+ 
 
 ## Hardware
 
