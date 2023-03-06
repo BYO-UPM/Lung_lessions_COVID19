@@ -25,17 +25,17 @@ lFlag= 1;
 lCentrada = 0; 
 
 % sDirOrigenOriginal is the directory where the original images are placed
-sDirOrigenOriginal='E:\siim-covid-19-cropped-segmented\train_512x512\';
+sDirOrigenOriginal='/kaggle/input/siim-covid19-images-metadata-256-512-768/images_metadata_256_512_768/train_512x512';
 
 % sDirOrigenCropped is the directory where the cropped images are placed 
 sDirOrigenCropped='E:\siim-covid-19-cropped-segmented\Cropped\';
 
 % sDirDestino contains the directory to store the new images after the processing procedure   
-if lCentrada, sDirDestino='c:\temp\centered'; 
-else sDirDestino='c:\temp\no-centered\'; end; 
+if lCentrada, sDirDestino='/kaggle/working/temp/centered'; 
+else sDirDestino='/kaggle/working/temp/no-centered'; end; 
 
 % sTablaOrigen is the .csv file storing the Bounding boxes. This is provided by the authors of the data set.  
-sTablaOrigen='E:\siim-covid-19-cropped-segmented\df_train_processed_meta_512x512.csv'; 
+sTablaOrigen='/kaggle/input/siim-covid19-images-metadata-256-512-768/images_metadata_256_512_768df_train_processed_meta_512x512.csv'; 
 
 % These two variables contain the name of the .csv files with the new bounding boxes for the cropped and processed images respectively  
 sTablaDestinoCropped='df_train_processed_meta_512x512_cropped.csv'; 
