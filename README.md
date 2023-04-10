@@ -4,7 +4,7 @@
 
 Julián D. Arias-Londoño , Álvaro Moure-Prado, and Juan I. Godino-Llorente 
 
-"Diagnostics" 
+Diagnostics 2023, Volume 13, Issue 8, 1381
 
 
 ## Abstract: 
